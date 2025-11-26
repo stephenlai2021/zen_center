@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+body {
+  background-color: #fcfcfc;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d0bae0;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b08ecb;
+}
+
+.ripple-bg {
+  background: radial-gradient(
+    circle,
+    rgba(233, 213, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+}
