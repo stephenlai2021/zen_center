@@ -125,7 +125,7 @@ const App: React.FC = () => {
             <h1 className="text-[120px] md:text-[180px] leading-none font-serif font-bold text-zen-800 opacity-90 select-none">
               禪
             </h1>
-            <div className="absolute -bottom-4 left-0 right-0 text-center">
+            <div className="absolute -bottom-20 left-0 right-0 text-center">
               <span className="text-xl md:text-3xl font-serif text-gray-700 tracking-[0.5em] md:tracking-[0.8em] whitespace-nowrap ml-2">
                 安定己心
               </span>
@@ -136,7 +136,8 @@ const App: React.FC = () => {
             </div>
           </div>
 
-          <div className="mt-16 md:mt-12 space-y-6">
+          {/* <div className="mt-30 md:mt-12 space-y-6"> */}
+          <div className="mt-20 space-y-6">
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-yellow-100 text-yellow-800 font-bold tracking-wide shadow-sm mb-4">
               <span className="text-lg">學費全免</span>
             </div>
